@@ -1,28 +1,9 @@
-[toolchain]
-
-[features]
-seeds = false
-skip-lint = false
-
 [programs.localnet]
-counter = "H1p2jBY7KVbp8kox4FoNnVWSzew1cDCZrtkAURUZcPFC"
-
-[registry]
-url = "https://api.apr.dev"
+token_mint = "FHXBTEpXesmHEdiEAFTiMbsfMBJHf1BCxGw5kZHWLHiv"
 
 [provider]
-cluster = "Localnet"
+cluster = "localnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
-test = "../node_modules/.bin/nx run anchor:jest"
-
-[test]
-startup_wait = 5000
-shutdown_wait = 2000
-upgradeable = false
-
-[test.validator]
-bind_address = "127.0.0.1"
-ledger = ".anchor/test-ledger"
-rpc_port = 8899
+test = "anchor test"

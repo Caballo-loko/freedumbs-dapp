@@ -3,11 +3,8 @@
 import { WalletButton } from '../solana/solana-provider';
 import * as React from 'react';
 import { ReactNode, Suspense, useEffect, useRef } from 'react';
-
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-
-import { AccountChecker } from '../account/account-ui';
 import {
   ClusterChecker,
   ClusterUiSelect,
@@ -15,6 +12,7 @@ import {
 } from '../cluster/cluster-ui';
 import toast, { Toaster } from 'react-hot-toast';
 
+// Main layout component
 export function UiLayout({
   children,
   links,
@@ -24,12 +22,15 @@ export function UiLayout({
 }) {
   const pathname = usePathname();
 
+  console.log('Rendering UiLayout with children:', children);
+  console.log('Links:', links);
+
   return (
     <div className="h-full flex flex-col">
       <div className="navbar bg-base-300 text-neutral-content flex-col md:flex-row space-y-2 md:space-y-0">
         <div className="flex-1">
           <Link className="btn btn-ghost normal-case text-xl" href="/">
-            <img className="h-4 md:h-6" alt="Logo" src="/logo.png" />
+            <img className="h-14 md:h-16" alt="Logo" src="/logo.png" />
           </Link>
           <ul className="menu menu-horizontal px-1 space-x-2">
             {links.map(({ label, path }) => (
@@ -49,9 +50,7 @@ export function UiLayout({
           <ClusterUiSelect />
         </div>
       </div>
-      <ClusterChecker>
-        <AccountChecker />
-      </ClusterChecker>
+      
       <div className="flex-grow mx-4 lg:mx-auto">
         <Suspense
           fallback={
@@ -74,7 +73,7 @@ export function UiLayout({
               target="_blank"
               rel="noopener noreferrer"
             >
-              create-solana-dapp
+              Casino of Life
             </a>
           </p>
         </aside>
@@ -83,6 +82,7 @@ export function UiLayout({
   );
 }
 
+// Modal component
 export function AppModal({
   children,
   title,
@@ -137,6 +137,7 @@ export function AppModal({
   );
 }
 
+// Hero component
 export function AppHero({
   children,
   title,
@@ -167,6 +168,7 @@ export function AppHero({
   );
 }
 
+// Utility function to ellipsify a string
 export function ellipsify(str = '', len = 4) {
   if (str.length > 30) {
     return (
@@ -176,6 +178,7 @@ export function ellipsify(str = '', len = 4) {
   return str;
 }
 
+// Hook to show transaction toast
 export function useTransactionToast() {
   return (signature: string) => {
     toast.success(

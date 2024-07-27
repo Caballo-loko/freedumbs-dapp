@@ -1,4 +1,4 @@
-import AccountListFeature from '@/components/account/account-list-feature';
+import AccountListFeature from '@/components/account/machine-ui';
 
 export default function Page() {
   return <AccountListFeature />;

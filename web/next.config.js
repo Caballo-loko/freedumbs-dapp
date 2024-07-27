@@ -28,3 +28,17 @@ const plugins = [
 ];
 
 module.exports = composePlugins(...plugins)(nextConfig);
+module.exports = {
+  reactStrictMode: true,
+  env: {
+      NEXT_PUBLIC_SOLANA_NETWORK: 'mainnet-beta', // or 'devnet'
+  },
+  async rewrites() {
+    return [
+      {
+        source: '/emulator/:path*',
+        destination: 'http://localhost/:path*', // Proxy to EmulatorJS frontend
+      },
+    ];
+  }
+};
