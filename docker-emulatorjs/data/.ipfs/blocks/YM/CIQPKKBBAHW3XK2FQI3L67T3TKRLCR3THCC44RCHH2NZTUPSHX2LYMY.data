@@ -1,0 +1,23 @@
+
+ÒÊ{
+  "title": "Sega Saturn",
+  "root": "segaSaturn",
+  "parent": "main",
+  "display_items": 9,
+  "defaults": {
+    "emulator": "libretro-yabause",
+    "bios": "saturn.zip",
+    "path": "segaSaturn",
+    "rom_extension": ".zip",
+    "video_position": "left:11.5vw;top:30vh;width:36.3vw;height:45.5vh;",
+    "type": "game",
+    "has_back": false,
+    "has_corner": false,
+    "has_logo": true,
+    "has_video": true,
+    "multi_disc": 0
+  },
+  "items": {
+  }
+}
+Ê

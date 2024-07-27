@@ -1,0 +1,20 @@
+{
+  "title": "Nintendo DS",
+  "root": "nds",
+  "parent": "main",
+  "display_items": 9,
+  "defaults": {
+    "emulator": "libretro-melonds",
+    "bios": "nds.zip",
+    "path": "nds",
+    "rom_extension": ".zip",
+    "video_position": "left:23.8vw;top:25.7vh;width:20vw;height:56vh;",
+    "type": "game",
+    "has_back": false,
+    "has_corner": false,
+    "has_logo": true,
+    "has_video": true,
+    "multi_disc": 0
+  },
+  "items": {}
+}

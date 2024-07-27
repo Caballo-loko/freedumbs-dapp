@@ -1,0 +1,75 @@
+=============== Jul 23, 2024 (UTC) ===============
+16:23:18.585433 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:23:18.587135 db@open opening
+16:23:18.587577 version@stat F·[] S·0B[] Sc·[]
+16:23:18.587916 db@janitor F·2 G·0
+16:23:18.587969 db@open done T·786.5µs
+16:23:18.598336 db@close closing
+16:23:18.598475 db@close done T·138.917µs
+=============== Jul 23, 2024 (UTC) ===============
+16:23:18.653392 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:23:18.654469 version@stat F·[] S·0B[] Sc·[]
+16:23:18.654572 db@open opening
+16:23:18.654791 journal@recovery F·1
+16:23:18.655118 journal@recovery recovering @1
+16:23:18.656666 memdb@flush created L0@2 N·6 S·1KiB "/F5..ZOQ,v6":"/pi..rty,v1"
+16:23:18.656923 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+16:23:18.658612 db@janitor F·3 G·0
+16:23:18.658694 db@open done T·4.059166ms
+21:08:22.251962 db@close closing
+21:08:22.255197 db@close done T·2.847542ms
+=============== Jul 23, 2024 (UTC) ===============
+21:09:08.278579 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:09:08.281563 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+21:09:08.281943 db@open opening
+21:09:08.282568 journal@recovery F·1
+21:09:08.283037 journal@recovery recovering @3
+21:09:08.300014 memdb@flush created L0@5 N·1679 S·151KiB "/F5..ZOQ,v10":"/pr..GLU,v1575"
+21:09:08.301102 version@stat F·[2] S·152KiB[152KiB] Sc·[0.50]
+21:09:08.307990 db@janitor F·4 G·0
+21:09:08.308258 db@open done T·26.152542ms
+22:05:16.927555 db@close closing
+22:05:16.930108 db@close done T·2.6185ms
+=============== Jul 23, 2024 (UTC) ===============
+22:06:20.238855 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:06:20.240062 version@stat F·[2] S·152KiB[152KiB] Sc·[0.50]
+22:06:20.240186 db@open opening
+22:06:20.240456 journal@recovery F·1
+22:06:20.241147 journal@recovery recovering @6
+22:06:20.243381 memdb@flush created L0@8 N·3 S·12KiB "/F5..ZOQ,v1690":"/lo..ers,v1688"
+22:06:20.243688 version@stat F·[3] S·165KiB[165KiB] Sc·[0.75]
+22:06:20.252330 db@janitor F·5 G·0
+22:06:20.252421 db@open done T·12.172167ms
+22:49:09.515721 db@close closing
+22:49:09.516739 db@close done T·939.416µs
+=============== Jul 23, 2024 (UTC) ===============
+22:49:52.535790 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:49:52.538656 version@stat F·[3] S·165KiB[165KiB] Sc·[0.75]
+22:49:52.538778 db@open opening
+22:49:52.539149 journal@recovery F·1
+22:49:52.539635 journal@recovery recovering @9
+22:49:52.542644 memdb@flush created L0@11 N·3 S·12KiB "/F5..ZOQ,v1694":"/lo..ers,v1692"
+22:49:52.542964 version@stat F·[4] S·177KiB[177KiB] Sc·[1.00]
+22:49:52.547217 db@janitor F·6 G·0
+22:49:52.547327 db@open done T·8.491375ms
+22:49:52.547474 table@compaction L0·4 -> L1·0 S·177KiB Q·1695
+22:49:52.574619 table@build created L1@14 N·753 S·100KiB "/F5..ZOQ,v1694":"/pr..GLU,v1575"
+22:49:52.576076 version@stat F·[0 1] S·100KiB[0B 100KiB] Sc·[0.00 0.00]
+22:49:52.576916 table@compaction committed F-3 S-77KiB Ke·0 D·938 T·28.606792ms
+22:49:52.577565 table@remove removed @8
+22:49:52.578391 table@remove removed @5
+22:49:52.578897 table@remove removed @2
+=============== Jul 24, 2024 (UTC) ===============
+02:38:14.197630 db@close closing
+02:38:14.199782 db@close done T·2.292708ms
+=============== Jul 24, 2024 (UTC) ===============
+02:38:45.641831 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:38:45.643127 version@stat F·[0 1] S·100KiB[0B 100KiB] Sc·[0.00 0.00]
+02:38:45.643242 db@open opening
+02:38:45.643595 journal@recovery F·1
+02:38:45.644369 journal@recovery recovering @12
+02:38:45.646745 memdb@flush created L0@15 N·5 S·26KiB "/F5..ZOQ,v1698":"/lo..ers,v1696"
+02:38:45.647054 version@stat F·[1 1] S·126KiB[26KiB 100KiB] Sc·[0.25 0.00]
+02:38:45.648946 db@janitor F·5 G·1
+02:38:45.649006 db@janitor removing table-11
+02:38:45.649137 db@open done T·5.783459ms

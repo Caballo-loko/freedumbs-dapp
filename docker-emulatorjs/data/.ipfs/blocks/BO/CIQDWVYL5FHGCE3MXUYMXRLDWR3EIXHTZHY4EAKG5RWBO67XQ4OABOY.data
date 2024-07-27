@@ -1,0 +1,23 @@
+
+ÒÊ{
+  "title": "Atari 7800",
+  "root": "atari7800",
+  "parent": "main",
+  "display_items": 9,
+  "defaults": {
+    "emulator": "libretro-prosystem",
+    "bios": "atari7800.zip",
+    "path": "atari7800",
+    "rom_extension": ".zip",
+    "video_position": "left:11.5vw;top:31.5vh;width:36vw;height:43vh;",
+    "type": "game",
+    "has_back": false,
+    "has_corner": false,
+    "has_logo": true,
+    "has_video": true,
+    "multi_disc": 0
+  },
+  "items": {
+  }
+}
+Ê

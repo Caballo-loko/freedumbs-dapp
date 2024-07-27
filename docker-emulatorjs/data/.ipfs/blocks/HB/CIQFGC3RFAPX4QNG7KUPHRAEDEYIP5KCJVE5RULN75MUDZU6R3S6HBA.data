@@ -1,0 +1,23 @@
+
+ÌÄ{
+  "title": "Arcade",
+  "root": "arcade",
+  "parent": "main",
+  "display_items": 9,
+  "defaults": {
+    "emulator": "libretro-mame2003_plus",
+    "bios": "samples.zip",
+    "path": "arcade",
+    "rom_extension": ".zip",
+    "video_position": "left:10.3vw;top:30.5vh;width:36.5vw;height:48vh;",
+    "type": "game",
+    "has_back": false,
+    "has_corner": false,
+    "has_logo": true,
+    "has_video": true,
+    "multi_disc": 0
+  },
+  "items": {
+  }
+}
+Ä

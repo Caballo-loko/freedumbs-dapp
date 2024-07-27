@@ -1,0 +1,21 @@
+{
+  "title": "Wonderswan",
+  "root": "ws",
+  "parent": "main",
+  "display_items": 9,
+  "defaults": {
+    "emulator": "libretro-mednafen_wswan",
+    "bios": "",
+    "path": "ws",
+    "rom_extension": ".zip",
+    "video_position": "left:11.5vw;top:31vh;width:35vw;height:43vh;",
+    "type": "game",
+    "has_back": false,
+    "has_corner": false,
+    "has_logo": true,
+    "has_video": true,
+    "multi_disc": 0
+  },
+  "items": {
+  }
+}

@@ -1,0 +1,23 @@
+
+õí{
+  "title": "EmulatorJS",
+  "root": "main",
+  "parent": "main",
+  "display_items": 9,
+  "defaults": {
+    "emulator": "",
+    "bios": "",
+    "path": "main",
+    "rom_extension": "",
+    "video_position": "",
+    "type": "menu",
+    "has_back": true,
+    "has_corner": true,
+    "has_logo": true,
+    "has_video": true,
+    "multi_disc": 0
+  },
+  "items": {
+  }
+}
+í

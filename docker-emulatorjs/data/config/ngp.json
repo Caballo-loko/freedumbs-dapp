@@ -1,0 +1,21 @@
+{
+  "title": "Neo Geo Pocket",
+  "root": "ngp",
+  "parent": "main",
+  "display_items": 9,
+  "defaults": {
+    "emulator": "libretro-mednafen_ngp",
+    "bios": "",
+    "path": "ngp",
+    "rom_extension": ".zip",
+    "video_position": "left:15vw;top:34vh;width:25vw;height:40vh;",
+    "type": "game",
+    "has_back": false,
+    "has_corner": false,
+    "has_logo": true,
+    "has_video": true,
+    "multi_disc": 0
+  },
+  "items": {
+  }
+}

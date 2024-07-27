@@ -1,0 +1,23 @@
+
+ÕÍ{
+  "title": "Sega Master System",
+  "root": "segaMS",
+  "parent": "main",
+  "display_items": 9,
+  "defaults": {
+    "emulator": "libretro-genesis_plus_gx",
+    "bios": "sega.zip",
+    "path": "segaMS",
+    "rom_extension": ".zip",
+    "video_position": "left:11.5vw;top:31.5vh;width:36vw;height:43vh;",
+    "type": "game",
+    "has_back": false,
+    "has_corner": false,
+    "has_logo": true,
+    "has_video": true,
+    "multi_disc": 0
+  },
+  "items": {
+  }
+}
+Í

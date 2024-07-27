@@ -1,0 +1,22 @@
+{
+  "title": "Atari Lynx",
+  "root": "lynx",
+  "parent": "main",
+  "type": "games",
+  "display_items": 9,
+  "defaults": {
+    "emulator": "libretro-handy",
+    "bios": "lynxboot.img",
+    "path": "lynx",
+    "rom_extension": ".zip",
+    "video_position": "left:11vw;top:31vh;width:36vw;height:44vh;",
+    "type": "game",
+    "has_back": false,
+    "has_corner": false,
+    "has_logo": true,
+    "has_video": true,
+    "multi_disc": 0
+  },
+  "items": {
+  }
+}

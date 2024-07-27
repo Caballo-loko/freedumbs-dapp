@@ -1,0 +1,21 @@
+{
+  "title": "GameBoy Color",
+  "root": "gbc",
+  "parent": "main",
+  "display_items": 9,
+  "defaults": {
+    "emulator": "libretro-gearboy",
+    "bios": "gb.zip",
+    "path": "gbc",
+    "rom_extension": ".zip",
+    "video_position": "left:15.5vw;top:31.2vh;width:28vw;height:44.7vh;",
+    "type": "game",
+    "has_back": false,
+    "has_corner": false,
+    "has_logo": true,
+    "has_video": true,
+    "multi_disc": 0
+  },
+  "items": {
+  }
+}

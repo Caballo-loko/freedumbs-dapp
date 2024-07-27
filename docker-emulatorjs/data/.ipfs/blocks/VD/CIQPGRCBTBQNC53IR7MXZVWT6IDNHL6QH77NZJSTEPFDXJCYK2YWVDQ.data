@@ -1,0 +1,23 @@
+
+¹±{
+  "title": "VirtualBoy",
+  "root": "vb",
+  "parent": "main",
+  "display_items": 9,
+  "defaults": {
+    "emulator": "libretro-mednafen_vb",
+    "bios": "",
+    "path": "vb",
+    "rom_extension": ".zip",
+    "video_position": "left:11.5vw;top:31.5vh;width:36vw;height:43vh;",
+    "type": "game",
+    "has_back": false,
+    "has_corner": false,
+    "has_logo": true,
+    "has_video": true,
+    "multi_disc": 0
+  },
+  "items": {
+  }
+}
+±

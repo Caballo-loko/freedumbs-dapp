@@ -1,0 +1,24 @@
+{
+  "title": "EmulatorJS",
+  "root": "main",
+  "parent": "main",
+  "display_items": 1,
+  "defaults": {
+    "emulator": "",
+    "bios": "",
+    "path": "main",
+    "rom_extension": "",
+    "video_position": "",
+    "type": "menu",
+    "has_back": true,
+    "has_corner": true,
+    "has_logo": true,
+    "has_video": true,
+    "multi_disc": 0
+  },
+  "items": {
+    "segaMD": {
+      "video_position": "left:11.5vw;top:31.5vh;width:36vw;height:43vh;"
+    }
+  }
+}
