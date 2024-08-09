@@ -12,7 +12,7 @@ ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend,
 const { mintNFT } = actions;
 const { metadata: { Metadata } } = programs;
 
-const MachineUI = ({ programId }) => {
+const MachineUI: React.FC<{ programId: string }> = ({ programId }) => {
   const { publicKey, signTransaction } = useWallet();
   const [newAgent, setNewAgent] = useState('');
   const [agents, setAgents] = useState<{ id: string; name: string; winRate: number; progression: number[] }[]>([]);
@@ -49,6 +49,10 @@ const MachineUI = ({ programId }) => {
         })
       );
 
+      if (!signTransaction) {
+        alert('Transaction signing is not available');
+        return;
+      }
       const signature = await signTransaction(transaction);
       await connection.confirmTransaction(signature, 'processed');
 

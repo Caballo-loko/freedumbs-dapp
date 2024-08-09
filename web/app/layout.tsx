@@ -10,7 +10,7 @@ export const metadata = {
 };
 
 const links: { label: string; path: string }[] = [
-  { label: 'Machine Registry', path: '/dashboard' }, // Use the proxy path
+  { label: 'Machine Registry', path: 'http://localhost:3002/' }, // Update to the full URL of the other app
 ];
 
 export default function RootLayout({

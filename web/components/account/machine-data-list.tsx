@@ -8,15 +8,20 @@ import { actions, programs } from '@metaplex/js';
 const { mintNFT } = actions;
 const { metadata: { Metadata } } = programs;
 
+interface Agent {
+  id: string;
+  name: string;
+}
+
 const MachineDataList = () => {
   const { publicKey, sendTransaction } = useWallet();
   const [newAgent, setNewAgent] = useState('');
-  const [agents, setAgents] = useState([]);
+  const [agents, setAgents] = useState<Agent[]>([]);
 
   useEffect(() => {
     const fetchAgents = async () => {
       // Fetch the list of registered agents from your backend or Solana program
-      const agentsData = [
+      const agentsData: Agent[] = [
         { id: '1', name: 'Agent 1' },
         { id: '2', name: 'Agent 2' },
       ];
